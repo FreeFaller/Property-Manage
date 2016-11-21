@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cheap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qbaobao.myapplication.CheapActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="125px"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:columnCount="3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@mipmap/bottom_cheap">
+
+        <Button android:background="@android:color/transparent"
+            android:layout_width="125dp"
+            android:id="@+id/backPage2_1"/>
+        <Button android:background="@android:color/transparent"
+            android:layout_width="125dp" />
+        <Button android:background="@android:color/transparent"
+            android:layout_width="120dp"
+            android:id="@+id/minesetting2_3"/>
+    </GridLayout>
+</RelativeLayout>

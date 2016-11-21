@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_usage8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qbaobao.myapplication.Usage8Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:outlineProvider="background"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="使用手册"
+            android:textStyle="normal"
+            android:textSize="100px"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/back8"
+            android:layout_width="200px"
+            android:layout_height="100px"
+            android:textSize="50px"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:text="返回"
+            android:textColor="@android:color/holo_blue_dark"/>
+    </RelativeLayout>
+</RelativeLayout>
