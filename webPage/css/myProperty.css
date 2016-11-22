@@ -8,5 +8,6 @@ body{width: 100%;background-color: #f2f3f3;padding-bottom: 5rem;}
 .propertyList{background-color: #ffffff;width: 100%;height: auto;font-size: 3.5rem;border-top: 1px solid #b5b4b4;border-bottom: 1px solid #b5b4b4;}
 .propertyList li{padding: 2rem;position: relative;height: 12rem;list-style: none;border-top: 1px solid #b5b4b4;}
 .propertyList li:first-child{border-top: 0 solid #ffffff;}
-.status{font-size: 3rem;margin-top: 4rem;}
+.status{font-size: 3rem;margin-top: 4rem;color: #4caf50;}
+.status2{font-size: 3rem;margin-top: 4rem;color: #ff9800;}
 .identify{float: right;font-size: 3rem;margin: -3.1rem 5rem 0 0;}

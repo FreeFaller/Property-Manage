@@ -1,0 +1,10 @@
+/*我的投诉*/
+*{margin: 0;padding: 0;}
+body{width: 100%;background-color: #f2f3f3;padding-bottom: 5rem;}
+.head{width: 100%;background-color: #ffffff;height: 6rem;padding-top: 2rem;}
+.title{text-align: center;font-weight: bold;font-size: 3.5rem;}
+.complainList{background-color: #ffffff;width: 100%;height: auto;font-size: 3.5rem;border-bottom: 1px solid #b5b4b4;}
+.complainList li{border-bottom: 1px solid #cecccc;padding-top: 2rem;}
+.contain{margin-left: 2rem;margin-bottom: 2rem;max-width: 40rem;width: 40rem;position: relative;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.handleStatus{float: right;margin: -6rem 2rem 0 0;color: red}
+.handleStatus span{margin-left: 2rem;color: #cecccc;}
