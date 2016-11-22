@@ -1,0 +1,12 @@
+/*我的物业*/
+*{margin: 0;padding: 0;}
+body{width: 100%;background-color: #f2f3f3;padding-bottom: 5rem;}
+.head{width: 100%;background-color: #ffffff;height: 6rem;padding-top: 2rem;}
+.title{text-align: center;font-weight: bold;font-size: 3.5rem;}
+/*.long{width: 100%;background-color: #e2e1e1;color: #e2e1e1;height: 1px;}*/
+.title2{font-size: 3rem;margin:3rem 0 1rem 3rem;color: #6d6b6b;}
+.propertyList{background-color: #ffffff;width: 100%;height: auto;font-size: 3.5rem;border-top: 1px solid #b5b4b4;border-bottom: 1px solid #b5b4b4;}
+.propertyList li{padding: 2rem;position: relative;height: 12rem;list-style: none;border-top: 1px solid #b5b4b4;}
+.propertyList li:first-child{border-top: 0 solid #ffffff;}
+.status{font-size: 3rem;margin-top: 4rem;}
+.identify{float: right;font-size: 3rem;margin: -3.1rem 5rem 0 0;}
