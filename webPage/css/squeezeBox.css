@@ -1,6 +1,6 @@
 .accordion .panel-title {
     margin: 0;
-    padding: 1.5rem;
+    padding: 0.5rem;
     -webkit-transition: .3s all ease-in-out;
      -moz-transition: .3s all ease-in-out;
        -o-transition: .3s all ease-in-out;
@@ -14,20 +14,20 @@
 .accordion .panel-title.active {background: #CCC;}
 .accordion .accordion-innerwrap {margin: 0 auto;width: 98%;}
 
-.panel-title{font-size: 3.5rem;}
+.panel-title{font-size: 1.5rem;}
 
-.panel-container {margin: .75rem 0;}
+.panel-container {margin: .5rem 0;}
 .panel-content {
     list-style-type: none;
     margin: 0;
     padding: .75em;
     background: #444;
     color: #e6e6e6;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 .panel-content li {
     border-bottom: 1px dotted #AAA;
-    padding: .75em;
+    padding: .5em;
 }
 .panel-content li:last-child {
     border-bottom: none;
