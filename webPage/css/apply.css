@@ -1,0 +1,6 @@
+/*申请绑定*/
+*{margin: 0;padding: 0;}
+body{width: 100%;background-color: #f2f3f3;padding-bottom: 5rem;}
+.head{width: 100%;background-color: #ffffff;height: 6rem;padding-top: 2rem;}
+.title{text-align: center;font-weight: bold;font-size: 3.5rem;}
+.nobind{font-size: 3rem;float: right;margin: -3.5rem 2rem 0 0;}
