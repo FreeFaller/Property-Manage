@@ -1,7 +1,8 @@
 $(document).ready(function() {
+    visible = true;
     function accordion(trigger) {
-        var $button = $(trigger),
-            visible = true;
+        var $button = $(trigger);
+            
             $button.hover().css({'cursor': 'pointer'});
         //event
         $button.click(function() {
