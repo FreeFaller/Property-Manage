@@ -16,51 +16,57 @@
 	<p class="nobind">暂不绑定</p>
 </div>
 <hr>
-<div id="pattern" class="pattern">
-        <!--Begin Pattern HTML-->
-        <div class="accordion clearfix">
-            <div class="accordion-innerwrap">
-                <ul class="panel-container list-reset" tabindex="1">
-                    <li><p id="trigger1" class="panel-title">园区</p>
-                        <ul class="panel-content list-reset visuallyhidden" aria-expanded="false">
-                            <li><b class="icon"></b> 仙居苑</li>
-                            <li><b class="icon"></b> 八里小区</li>
-                            <li><b class="icon"></b> 欣苑</li>
-                        </ul>
-                    </li>
-                </ul>
+<form method="get" action="" name="apply">
+	<div id="pattern" class="pattern">
+	    <!--Begin Pattern HTML-->
+	    <div class="accordion clearfix">
+	        <div class="accordion-innerwrap">
+	            <ul class="panel-container list-reset" tabindex="1">
+	                <li><p id="trigger1" class="panel-title">园区</p>
+	                    <ul class="panel-content list-reset visuallyhidden" aria-expanded="false">
+	                        <li><b class="icon"></b> 仙居苑</li>
+	                        <li><b class="icon"></b> 八里小区</li>
+	                        <li><b class="icon"></b> 欣苑</li>
+	                    </ul>
+	                </li>
+	            </ul>
 
-                <ul class="panel-container list-reset" tabindex="2">
-                    <li><p id="trigger2" class="panel-title">楼栋</p>
-                        <ul class="panel-content visuallyhidden list-reset" aria-expanded="false">
-                            <li><b class="icon"></b> 一栋</li>
-                            <li><b class="icon"></b> 二栋</li>
+	            <ul class="panel-container list-reset" tabindex="2">
+	                <li><p id="trigger2" class="panel-title">楼栋</p>
+	                    <ul class="panel-content visuallyhidden list-reset" aria-expanded="false">
+	                        <li><b class="icon"></b> 一栋</li>
+	                        <li><b class="icon"></b> 二栋</li>
 
-                        </ul>
-                    </li>
-                </ul>
+	                    </ul>
+	                </li>
+	            </ul>
 
-                <ul class="panel-container list-reset" tabindex="3">
-                    <li><p id="trigger3" class="panel-title">物业</p>
-                        <ul class="panel-content visuallyhidden list-reset" aria-expanded="false">
-                            <li><b class="icon"></b> Advertising Art</li>
-                            <li><b class="icon"></b> Fundamentals of Drawing</li>
-                        </ul>
-                    </li>
-                </ul>
+	            <ul class="panel-container list-reset" tabindex="3">
+	                <li><p id="trigger3" class="panel-title">物业</p>
+	                    <ul class="panel-content visuallyhidden list-reset" aria-expanded="false">
+	                        <li><b class="icon"></b> Advertising Art</li>
+	                        <li><b class="icon"></b> Fundamentals of Drawing</li>
+	                    </ul>
+	                </li>
+	            </ul>
 
-                <ul class="panel-container list-reset" tabindex="4">
-                    <li><p id="trigger4" class="panel-title">角色</p>
-                        <ul class="panel-content visuallyhidden list-reset" aria-expanded="false">
-                            <li><b class="icon"></b> 租户</li>
-                            <li><b class="icon"></b> 房东</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-</div>
-<input type="button" class="applyBtn" value="申请绑定">
+	            <ul class="panel-container list-reset" tabindex="4">
+	                <li><p id="trigger4" class="panel-title">角色</p>
+	                    <ul class="panel-content visuallyhidden list-reset" aria-expanded="false">
+	                        <li><b class="icon"></b> 租户</li>
+	                        <li><b class="icon"></b> 房东</li>
+	                    </ul>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	</div>
+	<input type="hidden" name="pos1" value="">
+	<input type="hidden" name="pos2" value="">
+	<input type="hidden" name="pos3" value="">
+	<input type="hidden" name="pos4" value="">
+	<input type="submit" class="applyBtn" value="申请绑定">
+</form>
 
 <script type="text/javascript" src="js/control.js"></script>
 
