@@ -7,6 +7,6 @@ body li{list-style: none;}
 .date{float: left;font-size: 1.5rem;margin-left: .5rem;margin-top: .5rem;}
 .bill li{border-bottom: 1px solid gray;margin-top: .5rem;}
 .buy{position: fixed;bottom: 0;height:3rem;background-color: #ffeb3b;width: 100%;font-size: 1.5rem;padding-top: 1rem;}
-.buy .all{padding-top: 1rem;margin-right: 2rem;}
-.buy .clear{float: right;margin-right: 2rem;width: 4rem;padding: .4rem .8rem;color: #ffffff;background-color: #ff7f00;border-width: 0;outline: none;border-radius: 5px;font-size: 1.2rem;    margin-top: -.2rem;}
+.buy .all{padding-top: 1rem;margin-right: .5rem;}
+.buy .clear{float: right;margin-right: 1rem;width: 4rem;padding: .4rem .8rem;color: #ffffff;background-color: #ff7f00;border-width: 0;outline: none;border-radius: 5px;font-size: 1.2rem;    margin-top: -.2rem;}
 .chooseAll{margin: 0 0 0 1rem;}
