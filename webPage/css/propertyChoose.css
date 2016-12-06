@@ -1,0 +1,6 @@
+.propertyList .detail{font-size: 1.2rem;height: 2rem;}
+.propertyList .first{margin-top: 1rem;}
+.propertyList li{height: auto;}
+.checkState{float: right;margin-top: -6rem;font-size: 1.2rem;color: #b9b8b8;}
+.pass{float: right;margin-top: -6rem;font-size: 1.2rem;color: #2196f3;}
+.forbiden,.refuse{float: right;;margin-top: -3rem;font-size: 1.2rem;color: #2196f3;}

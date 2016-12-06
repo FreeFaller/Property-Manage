@@ -1,0 +1,9 @@
+/*申请绑定*/
+*{margin: 0;padding: 0;}
+body{width: 100%;background-color: #f2f3f3;padding-bottom: 3rem;}
+.head{width: 100%;background-color: #ffffff;height: 3rem;padding-top: 1rem;}
+.title{text-align: center;font-weight: bold;font-size: 1.5rem;}
+.nobind{font-size: 1rem;float: right;margin: -1.5rem 1rem 0 0;}
+.applyBtn{width: 90%;height:2.5rem;text-align: center;background-color: #74c7f5;font-size: 1.2rem;letter-spacing: .5rem;border-radius: 5px;margin-left: 5%;color: #ffffff;}
+.showPos{margin-left: 2rem;}
+.panel-title{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}

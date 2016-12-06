@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width"/>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/repair.css">
+<link rel="stylesheet" type="text/css" href="css/bill.css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+
+</head>
+<body>
+<div class="head">
+	<p class="title">物业缴费</p>
+</div>
+<hr>
+<form method="get" action="" name="repair">
+<p class="billTotle">未缴费总计<span>17235元</span></p>
+<ul class="bill" id="bill" onclick="calculate()">
+	<li>
+		<input type="checkbox" class="checkbox">
+		<span class="date">12/2015</span>
+		<table>
+			<tr>
+				<td>费用合计</td>
+				<td>未缴费金额</td>
+			</tr>
+			<tr>
+				<td>4745.9元</td>
+				<td class="cost">4745.9元</td>
+			</tr>
+		</table>
+	</li>
+	<li>
+		<input type="checkbox" class="checkbox">
+		<span class="date">12/2015</span>
+		<table>
+			<tr>
+				<td>费用合计</td>
+				<td>未缴费金额</td>
+			</tr>
+			<tr>
+				<td>2745.9元</td>
+				<td class="cost">2745.9元</td>
+			</tr>
+		</table>
+	</li>
+	<li>
+		<input type="checkbox" class="checkbox">
+		<span class="date">12/2015</span>
+		<table>
+			<tr>
+				<td>费用合计</td>
+				<td>未缴费金额</td>
+			</tr>
+			<tr>
+				<td>3745.9元</td>
+				<td class="cost">3745.9元</td>
+			</tr>
+		</table>
+	</li>
+</ul>
+<div class="buy">
+	<input type="checkbox" class="chooseAll" onclick="chooseAll()" id="chooseAllBtn">
+	<span class="all">全选</span><span>合计：</span><span id="totleCost">0</span>元
+	<input type="submit" class="clear" value="结算">
+</div>
+</form>
+<script type="text/javascript" src="js/bill.js"></script>
+</body>
+</html>

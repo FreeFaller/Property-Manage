@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qbaobao.myapplication">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Inform1Activity">
+            <intent-filter>
+                <action android:name="android.litreily.Inform1Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Manage2Activity">
+            <intent-filter>
+                <action android:name="android.litreily.Manage2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu3Activity">
+            <intent-filter>
+                <action android:name="android.litreily.Menu3Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Suggest4Activity">
+            <intent-filter>
+                <action android:name="android.litreily.Suggest4Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Manage5Activity">
+            <intent-filter>
+                <action android:name="android.litreily.Manage5Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Usage8Activity">
+            <intent-filter>
+                <action android:name="android.litreily.Usage8Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSettingActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_my_settingActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingmysettingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_my_complainActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingmycomplainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_headPicActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingheadPicActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_ensure_addActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingensureaddActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_my_informationActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingmyinformationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_my_oderActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingmyoderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_my_propertyActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingmypropertyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_my_repairActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingmyrepairActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_apply_bindlingActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingapplybindlingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MineSetting_view_bindlingActivity">
+            <intent-filter>
+                <action android:name="android.litreily.MineSettingviewbindlingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CheapActivity">
+            <intent-filter>
+                <action android:name="android.litreily.CheapActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

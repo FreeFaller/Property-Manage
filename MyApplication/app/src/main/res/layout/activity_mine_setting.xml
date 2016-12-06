@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mine_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qbaobao.myapplication.MineSettingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:background="@mipmap/minesetting_my_setting"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayout1">
+
+        <Button
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:id="@+id/my_setting"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1400px"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1700px"
+            android:background="@android:color/transparent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:background="@mipmap/minesetting_headpic"
+                android:id="@+id/relativeLayout4">
+
+                <TextView
+                    android:layout_width="500px"
+                    android:layout_height="100px"
+                    android:text="无名社员7359"
+                    android:textColor="@android:color/white"
+                    android:textSize="75px"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/textView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:layout_width="250px"
+                    android:layout_height="250px"
+                    android:id="@+id/headPic"
+                    android:background="@android:color/transparent"
+                    android:layout_above="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="13dp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250px"
+                android:background="@mipmap/minesetting_ensure_add"
+                android:layout_below="@+id/relativeLayout4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/relativeLayout5">
+
+                <Button
+                    android:layout_width="350px"
+                    android:layout_height="150px"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:id="@+id/ensure_add"
+                    android:background="@android:color/transparent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="200px"
+                    android:layout_height="75px"
+                    android:text="住房名"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_marginLeft="53dp"
+                    android:layout_marginStart="53dp"
+                    android:layout_marginBottom="7dp"
+                    android:id="@+id/textView2"
+                    android:gravity="center_horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:background="@mipmap/minesetting_my_information_to_repair"
+                android:layout_below="@+id/relativeLayout5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:rowCount="5"
+                android:columnCount="1"
+                android:id="@+id/gridLayout2">
+                <Button android:layout_width="match_parent"
+                    android:id="@+id/my_information"
+                    android:background="@android:color/transparent"/>
+                <Button android:layout_width="match_parent"
+                    android:id="@+id/my_oder"
+                    android:background="@android:color/transparent"/>
+                <Button android:layout_width="match_parent"
+                    android:id="@+id/my_property"
+                    android:background="@android:color/transparent"/>
+                <Button android:layout_width="match_parent"
+                    android:id="@+id/my_complain"
+                    android:background="@android:color/transparent"/>
+                <Button android:layout_width="match_parent"
+                    android:id="@+id/my_repair"
+                    android:background="@android:color/transparent"/>
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="250px"
+                android:background="@mipmap/minesetting_apply_and_view_bindling"
+                android:rowCount="2"
+                android:columnCount="1"
+                android:layout_below="@+id/gridLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp">
+
+                <Button android:layout_width="match_parent"
+                    android:id="@+id/apply_bindling"
+                    android:background="@android:color/transparent"/>
+                <Button android:layout_width="match_parent"
+                    android:id="@+id/view_bindling"
+                    android:background="@android:color/transparent"/>
+            </GridLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="125px"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:columnCount="3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@mipmap/bottom_minesetting">
+
+        <Button android:background="@android:color/transparent"
+            android:layout_width="125dp"
+            android:id="@+id/backPage3_1"/>
+        <Button android:background="@android:color/transparent"
+            android:layout_width="125dp"
+            android:id="@+id/cheap3_2"/>
+        <Button android:background="@android:color/transparent"
+            android:layout_width="120dp" />
+    </GridLayout>
+</RelativeLayout>

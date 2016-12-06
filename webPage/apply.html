@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width"/>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/squeezeBox.css">
+<link rel="stylesheet" type="text/css" href="css/apply.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+
+</head>
+<body>
+<div class="head">
+	<p class="title">申请绑定</p>
+	<p class="nobind">暂不绑定</p>
+</div>
+<hr>
+<form method="get" action="" name="apply">
+	<div id="pattern" class="pattern">
+	    <!--Begin Pattern HTML-->
+	    <div class="accordion clearfix">
+	        <div class="accordion-innerwrap">
+	            <ul class="panel-container list-reset" tabindex="1">
+	                <li><p id="trigger1" class="panel-title">园区<span id="showPos1" class="showPos"></span></p>
+	                    <ul class="panel-content list-reset visuallyhidden" aria-expanded="false" onclick="pos(event,1)" id="posList1">
+	                        <li>仙居苑</li>
+	                        <li>八里小区</li>
+	                        <li>欣苑</li>
+	                    </ul>
+	                </li>
+	            </ul>
+
+	            <ul class="panel-container list-reset" tabindex="2">
+	                <li><p id="trigger2" class="panel-title">楼栋<span id="showPos2" class="showPos"></span></p>
+	                    <ul class="panel-content visuallyhidden list-reset" aria-expanded="false" onclick="pos(event,2)" id="posList2">
+	                        <li>一栋</li>
+	                        <li>二栋</li>
+
+	                    </ul>
+	                </li>
+	            </ul>
+
+	            <ul class="panel-container list-reset" tabindex="3">
+	                <li><p id="trigger3" class="panel-title">物业<span id="showPos3" class="showPos"></span></p>
+	                    <ul class="panel-content visuallyhidden list-reset" aria-expanded="false" onclick="pos(event,3)" id="posList3">
+	                        <li>Advertising Art</li>
+	                        <li>Fundamentals of Drawing</li>
+	                    </ul>
+	                </li>
+	            </ul>
+
+	            <ul class="panel-container list-reset" tabindex="4">
+	                <li><p id="trigger4" class="panel-title">角色<span id="showPos4" class="showPos"></span></p>
+	                    <ul class="panel-content visuallyhidden list-reset" aria-expanded="false" onclick="pos(event,4)" id="posList4">
+	                        <li>租户</li>
+	                        <li>房东</li>
+	                    </ul>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	</div>
+	<input type="hidden" id="pos1" value="" name="pos1">
+	<input type="hidden" id="pos2" value="" name="pos2">
+	<input type="hidden" id="pos3" value="" name="pos3">
+	<input type="hidden" id="pos4" value="" name="pos4">
+	<input type="submit" class="applyBtn" value="申请绑定">
+</form>
+<script type="text/javascript" src="js/apply.js"></script>
+<script type="text/javascript" src="js/control.js"></script>
+
+</body>
+</html>
