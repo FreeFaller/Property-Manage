@@ -1,0 +1,28 @@
+/* CSS Document */
+#tab { width:30%; height:216px; position:relative ;margin:40px  auto 0 auto;cursor: pointer;}
+/*设置容器高宽等*/
+/*html > body #tab { width:412px;}*/
+/*兼容IE6:IE6下宽度不够*/
+#tab div { position:absolute; top:30px; left:0; width:412px; height:186px;}
+/*设置容器高宽等*/
+#tab div { display:none;}
+/*设置容器默认隐藏:不用ID是因为下面将利用class来控制容器显示,而class优先级低于id选择器*/
+#tab .block { display:block;}
+/*选中的容器*/
+#tab h3 { float:left; width:103px; height:30px; line-height:30px; margin:0 0 0 0; font-size:12px; cursor:pointer; background-color:#c5c5c5; text-align:center; color:#5a5a5a; font-family:Microsoft YaHei;font-weight:normal;}
+/*默认标题样式*/
+#tab .up { background:#0292cf;color:#fff;}
+/*选中的标题样式*/
+/*修饰列表内容*/
+#tab ul { list-style:none; padding:0; height:186px; margin-top:0px;}
+#tab li { margin-left:10px; margin-right:10px; border-bottom:1px dotted #c6c6c6; height:22px; padding-top:23px; overflow:hidden; font-size:12px;}
+#tab li a { display:inline; font-size:12px; text-decoration:none; text-indent:10px; margin-right:10px;}
+#tab li span{ display:block; float:right; margin-right:5px; color: #bdacb3;}
+a.tab_title:link { color: #5a5a5a; text-decoration:none;}
+a.tab_title:visited { color:#5a5a5a; text-decoration:none;}
+a.tab_title:hover { color:#5a5a5a; text-decoration:none;}
+a.tab_title:active { color:#5a5a5a; text-decoration:none;}
+a.tab_menu:link { color:#6464d5; text-decoration:none;}
+a.tab_menu:hover { color:#8888e0; text-decoration:underline;}
+
+

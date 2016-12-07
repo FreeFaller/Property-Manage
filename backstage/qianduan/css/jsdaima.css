@@ -1,0 +1,106 @@
+* {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+a, img {
+	border:0;
+}
+body {
+	font:12px/180% "微软雅黑", Arial, Helvetica, sans-serif;
+	background:#FFFFFF ;
+}
+/* film_focus */
+.film_focus {
+	width:857px;
+	height:340px;
+	overflow:hidden;
+	position:relative;
+	margin:20px auto;
+}
+.film_focus .film_focus_imgs_wrap {
+	background:url(../images/load.gif) no-repeat center center;
+}
+.film_focus ul.film_focus_imgs {
+	height:340px;
+	height:9999em;
+	position:absolute;
+	right:0;
+	top:0;
+	overflow:hidden;
+}
+.film_focus ul.film_focus_imgs li {
+	height:340px;
+	overflow:hidden;
+}
+.film_focus ul.film_focus_imgs li img {
+	height:340px;
+	width:626px;
+}
+.film_focus .film_focus_desc h3 {
+	height:45px;
+	line-height:45px;
+	overflow:hidden;
+	position:absolute;
+	left:232px;
+	bottom:0;
+	background:rgba(0, 0, 0, .5);
+	color:#fff;
+	width:100%;
+	padding-left:20px;
+	z-index:99;
+	font-size:16px;
+ filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#7F000000', endColorstr='#7F000000');
+}
+.film_focus ul.film_focus_nav {
+	width:232px;
+	height:340px;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:100;
+}
+.film_focus ul.film_focus_nav li {
+	height:47px;
+	background:#d7d7dc;
+	margin:0px 0px 5px 0;
+	padding:0px 18px 0 19px;
+	position:relative;
+	width:190px;
+	cursor: pointer;
+	cursor: hand;
+	color:#333;
+	font-weight:bold;
+	font-size:14px;
+	overflow:hidden;
+	line-height:47px;
+}
+.film_focus ul.film_focus_nav li.cur {
+	background:url(../images/hd_on.png) no-repeat;
+	width:190px;
+	height:132px;
+	left:0px;
+	padding:0px 33px 0 25px;
+	_background:url(../images/hd_on.png) no-repeat 0 0;
+	word-break:break-all;
+	color:#fff;
+	font-weight:bold;
+	font-size:22px;
+	overflow:hidden;
+	line-height:30px;
+}
+.film_focus ul.film_focus_nav li b {
+	display:none
+}
+.film_focus ul.film_focus_nav li b span {
+	display:block
+}
+.film_focus ul.film_focus_nav li.cur b {
+	display:block;
+	vertical-align: middle;
+	display: table-cell;
+	height:132px;
+}
+.film_focus ul.film_focus_nav li.cur span {
+	display:none
+}

@@ -10,12 +10,12 @@
 	<p class="title">报事报修</p>
 </div>
 <hr>
-<form method="get" action="" name="repair">
+<form method="post" action="../backstage/qianduan/doRepair.php" name="repair">
     <div class="repair-title">
         <p>报修标题</p>
-        <input type="text" placeholder="请填写报修标题">
+        <input type="text" placeholder="请填写报修标题" name="repairtitle">
     </div>
-    <textarea placeholder="报修详情说明："></textarea>
+    <textarea placeholder="报修详情说明：" name="repaircontent"></textarea>
     <input type="submit" class="applyBtn" value="提交">
 </form>
 </body>

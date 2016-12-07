@@ -1,0 +1,126 @@
+body{
+	min-width: 1390px;
+}
+
+#head{
+	height: 230px;
+}
+
+#text1{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#text2{
+	position: absolute;
+	top: 150px;
+	left: 230px;
+}
+
+#foot {
+	width: 100%;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	background-color: white;
+}
+.wrapper{
+	height:362px;
+	margin:0 auto;
+}
+#focus{
+	height:180px;
+	width: 950px;
+	margin:0 auto;
+	overflow:hidden;
+	position:absolute;
+	top:240px;
+
+}
+#focus img{
+	width: 950px;
+	height: 100%;
+}
+#focus ul{
+	height:465px;
+	position:absolute;
+}
+#focus ul li{
+	float:left;
+	height:365px;
+	overflow:hidden;
+	position:relative;
+	background:#000;
+}
+#focus ul li div{
+	position:absolute;
+	overflow:hidden;
+}
+#focus .btnBg{
+	position: absolute;
+	width: 330px;
+	height: 45px;
+	background-color: #1f5114;
+	opacity: 0.8;
+	z-index: 99;
+	bottom: 60px;
+}
+#focus .btnBg p{
+	position: absolute;
+	opacity: 1;
+	color: #fff;
+	line-height: 45px;
+	text-align: center;
+	margin-left: 30px;
+	font-weight: bolder;
+	font-size: 16px;
+}
+#focus .btn{
+	position:absolute;
+	height:20px;
+	padding: 23px 27px;
+	right:auto;
+	left: auto;
+	bottom:0;
+	text-align:center;
+}
+#focus .btn span{
+	display:inline-block;
+	width:7px;
+	height:7px;
+	margin-left:10px;
+	cursor:pointer;
+	background:transparent;
+	border: 2px solid #f0f0f0;
+	border-radius: 50%;
+	box-shadow: 0 0 2px #ededed;
+	transition: background .5s, opacity .5s;
+}
+#focus .preNext{
+	width:50px;
+	height:100px;
+	position:absolute;
+	top:120px;
+	background:url(../images/ddd.gif) no-repeat 0 0;
+	cursor:pointer;
+}
+#focus .pre{
+	left:0;
+}
+#focus .next{
+	right:0;
+	background-position:right top;
+}
+.clearfix:after, .clearfix:before{
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }

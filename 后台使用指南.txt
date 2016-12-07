@@ -1,0 +1,5 @@
+1、后台目前完成注册、登录、保修、建议四个功能
+2、物流管理和密码修改待完成
+
+使用介绍：仅需要进去御姐写的webPage文件夹的前端页面  后台文件夹：backstage不需要管（里面很乱）
+使用前需要安装wamp（集成的php环境）,把Property-Manage文件夹整个放入www（wamp安装目录下），打开wamp，在浏览器输入http://localhost/server/webPage/即可

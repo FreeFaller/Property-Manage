@@ -1,0 +1,87 @@
+#main {
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+	top: 100px;
+}
+
+#text-line {
+	position: relative;
+	width: 500px;
+	padding-top: 100px;
+	
+}
+
+#text-line > h1 {
+    color: black;
+    text-align: center;
+}
+
+#text-line > h2 {
+    color: black;
+    text-align: center;
+}
+
+#login {
+	position: relative;
+	width: 280px;
+	border: 1px solid #98D2FF;
+	border-radius: 10px;      /*圆角边框*/
+	padding: 10px 20px 40px 20px;
+	background:linear-gradient(#FFFFFF,#DAE6F3);
+	top: -150px;
+	left: 600px;
+}
+
+#login > p {
+	font-size: 20px;
+}
+
+#login > li {
+	margin-top: 7px;
+}
+
+ul li {
+	margin-top: 7px;
+	list-style-type: none;
+}
+
+#a1{
+	width:10px;
+}
+label {
+	font-size: 17px;
+	color: #98D2FF;
+}
+
+#password {
+	white-space: pre;
+}
+
+.button {
+	width: 47%;
+	background-color: #0978A4;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	letter-spacing: 4px;/*两个文字之间的间距*/
+	border-radius: 5px;
+	border: 0px;
+	position: relative;
+	top: 15px;
+}
+
+/*img {
+	width: 100%;
+	height: 100%;
+}*/
+
+body {
+	font-family: "微软雅黑";
+}
+
+input {
+	width: 200px;
+}
+

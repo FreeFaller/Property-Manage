@@ -1,0 +1,56 @@
+.page {
+ font : normal 12px/1.5em "Microsoft YaHei", Tahoma;
+ font : normal 12px/1.5em Tahoma; 
+ border: 0px;
+ margin: 0px;
+ padding: 0px;
+ overflow: hidden;
+ text-decoration: none;
+ text-overflow: ellipsis; 
+}
+.page a {
+ color: #333;
+}
+.page a :link{
+ color: #333;
+}
+.page a:active{color:#FF6600}
+.page a:hover {
+ color: #06c;
+}
+/*body {
+ background: #f3faff;
+ text-align: center;
+}*/
+.page ul {
+ list-style-type: none;
+}
+.page li {
+ margin-bottom: 13px; /* CSS Hack For Firefox */
+ /*margin-bottom: 12px;  CSS Hack For IE7 & IE6 
+ _margin-bottom: 3%; *//* CSS Hack For IE6 */
+ white-space: nowrap;
+}
+#net {
+ /*background-color: teal;*/
+ border: 1px #acd0f0 solid;
+ width: 68%;
+ height: 402px;
+}
+#Content {
+ width: 68%;
+ height: 372px;
+ margin: 10px 10px 0px 10px;
+/* _margin: 10px 5px 0px 5px; *//* CSS Hack For IE6 */
+ overflow: hidden;
+ text-align: left;
+}
+#page {
+ width: 100%;
+ height: 20px;
+ margin: 0px;
+ text-align: right;
+}
+#page a:link{color:#000000}
+#page a:hover{color:#FF0000}
+#page a:active{color:#3300FF}
