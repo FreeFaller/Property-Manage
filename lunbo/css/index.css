@@ -1,9 +1,9 @@
 ﻿.wrapper{
-	height:362px;
+	height:570px;
 	margin:0 auto;
 }
 #focus{
-	height:362px;
+	height:570px;
 	width: 100%;
 	margin:0 auto;
 	overflow:hidden;
@@ -19,7 +19,7 @@
 }
 #focus ul li{
 	float:left;
-	height:365px;
+	height:570px;
 	overflow:hidden;
 	position:relative;
 	background:#000;
