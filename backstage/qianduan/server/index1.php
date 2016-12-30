@@ -112,8 +112,10 @@ $(document).ready(function(){
     <tr>
         <td id="td1"><?php echo $i;?></td>
         <td id="td2"><?php echo $row['name'];?></td>
-        <td><?php echo $row['complaintitle'];?></td>
-        <td><?php echo $row['content'];?></td>
+        <td><?php echo $row['garden'];?></td>
+        <td><?php echo $row['building'];?></td>
+        <td><?php echo $row['property'];?></td>
+        <td><?php echo $row['role'];?></td>
         <td align="center"><input type="button" value="同意" class="btn" id="<?php echo "agree$i"; ?>" onclick="agree()"><input type="button" value="拒绝" id="<?php echo "refuse$i" ?>" class="btn"  onclick="refuse()"></td><br/>
     </tr>
     <?php $i++;endforeach;?>
